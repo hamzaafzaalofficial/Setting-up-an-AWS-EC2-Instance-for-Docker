@@ -17,13 +17,13 @@ Now that you’re connected to your EC2 instance, install Docker:
 
 Follow the attached file for commands of this section.
 
-# b) Install the docker packages:
+#b) Install the docker packages:
  
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 
 
-# Verify the installations:
+#Verify the installations:
 
 sudo docker --version 
 sudo systemctl status docker 
